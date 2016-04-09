@@ -67,23 +67,30 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
+  margin-bottom: 20px;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 3px solid #faf9f4;
-  transition: all .5s;
+  transition: all .25s;
+  box-shadow: 1px 1px 6px #777;
 }
 header .profile-image:hover {
-  transform: scale(1.1) rotate(10deg);
+  transform: scale(1.1) rotate(360deg);
 }
 
 .col {
   flex: 1;
 }
 
-.image-size {
+div .image-size {
   width: 270px;
   height: 180px;
+  transition: all .75s;
+}
+
+div .image-size:hover {
+  transform: scale(1) rotate(360deg);
 }
 
 .tag {
